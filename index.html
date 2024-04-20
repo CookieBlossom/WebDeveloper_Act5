@@ -10,7 +10,7 @@
 <body>
     <div class="container-fluid min-vh-100 p-0">
         <!--NAVBAR-->   
-            <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <nav class="navbar navbar-expand-md navbar-ligth bg-ligth">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="index.html">
                         Empresa
@@ -53,16 +53,22 @@
             </div>        
         <!--CARROUSEL-->
         <!--PRODUCTOS-->
-        
+        <h5 class="title-section">PRODUCTOS</h5>
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1" id="section-productos">
+            
+        </div>
         <!--PRODUCTOS-->
+
         <!--FOOTER-->
-        <nav class="navbar fixed-bottom navbar-light bg-light">
+        <nav class="navbar fixed-bottom navbar-light bg-light" id="footer">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#">FOOTER</a>
+              <a class="navbar-brand" href="#">Fixed bottom</a>
             </div>
         </nav>
         <!--FOOTER-->        
     </div>    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./assets/js/productos.js"></script>
+    <script>rellenoProductos()</script>
 </body>
 </html>

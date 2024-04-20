@@ -12,10 +12,19 @@
     width:100%;
     height:400px;
 }
-.productos-cards{
-    margin: 2rem;
-}
 .title-section{
+    padding: 10px;
     text-align: center;
     font-weight: bold;
+}
+.card{
+    padding: 20px;
+    border-style: none;
+}
+#section-productos{
+    display: flex;
+    justify-content: center;
+}
+#footer{
+    margin-top: auto;
 }
