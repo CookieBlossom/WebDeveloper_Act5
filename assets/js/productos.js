@@ -20,7 +20,7 @@ productos = [
         descripcion: "AIR JORDAN LEGO VERSION",
         precio: 10000,
         fotos: {
-            foto1: "./assets/img/producto1.jpg"
+            foto1: "./assets/img/producto2.jpg"
         }
     },
     {
@@ -84,6 +84,7 @@ function rellenoProductos(){
                 <img class="card-img-top" src="${producto.fotos.foto1}">
                 <div class="card-body">
                     <h5 class="card-title">${producto.name}</h5>
+                    <p class="card-text">${producto.marca}</p>
                     <p class="card-text">$${producto.precio}</p>
                 </div>
             </div>
