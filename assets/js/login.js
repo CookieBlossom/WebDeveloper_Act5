@@ -3,6 +3,11 @@ usuarios = [
         username: "Pedrito",
         email: "pedrito@example.com",
         password: "12345"
+    },
+    {
+        username: "Loco",
+        email: "loco123@gmail.com",
+        password: "123"
     }
 ]
 
