@@ -1,3 +1,66 @@
-*{
-    background-color: black;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* contenedor principal */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 400px; 
+}
+
+/* íconos de usuario y contraseña */
+.icon-background {
+    background-color: rgba(255, 255, 255, 0.438);
+}
+
+/* imágenes de íconos */
+img {
+    justify-content: center;
+    height: auto; 
+}
+
+.login-icon {
+    height: 7rem;
+}
+
+.small-icon {
+    height: 1rem;
+}
+
+/* opciones y enlaces */
+.link-secondary {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+/* botón de iniciar sesión */
+.button-primary {
+    width: 100%;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* separador con texto 'O' */
+.divider {
+    text-align: center;
+    position: relative;
+    margin: 20px 0;
+}
+
+.divider span {
+    background: white;
+    padding: 0 20px;
 }
